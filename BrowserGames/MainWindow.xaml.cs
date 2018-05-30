@@ -81,5 +81,12 @@ namespace BrowserGames
             driver.Close();
             driver.Quit();
         }
+
+        private void moneyTest_Click(object sender, RoutedEventArgs e)
+        {
+            var yandexMoney = new YandexMoneyTest();
+            //yandexMoney.Initialization();
+            yandexMoney.LogInTestPositive();
+        }
     }
 }
